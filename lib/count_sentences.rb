@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?()
-    sekf.end_with?(".") ? true : false
+    self.end_with?(".") ? true : false
   end
 
   def question?
