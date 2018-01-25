@@ -19,6 +19,6 @@ class String
       stnArray.delete("")
       stnArray.delete(" ")
 
-      return stnArray
+      return stnArray.length
   end
 end
