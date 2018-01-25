@@ -16,6 +16,10 @@ class String
 
   def count_sentences
       stnArray = self.split(/[.!?]/)
-      binding.pry
+      stnArray.delete("")
+      stnArray.delete(" ")
+
+      return stnArray
+    
   end
 end
