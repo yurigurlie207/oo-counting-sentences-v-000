@@ -20,6 +20,5 @@ class String
       stnArray.delete(" ")
 
       return stnArray
-    
   end
 end
